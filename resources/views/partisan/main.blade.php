@@ -47,22 +47,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
+                    <li class="nav-item @@about">
+                        <a class="nav-link" href="#service">Services</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us
                         </a>
                     </li>
-                    <li class="nav-item @@about">
-                        <a class="nav-link" href="#service">Services</a>
-                    </li>
-
                     <li class="nav-item @@product">
                         <a class="nav-link" href="#product">Product</a>
                     </li>
-                    <li class="nav-item @@journal">
+
+                    {{-- <li class="nav-item @@journal">
                         <a class="nav-link" href="#journal">Journal</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item @@contact">
                         <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item @@login">
+                        <a class="nav-link" href="#login">Login</a>
                     </li>
                 </ul>
             </div>
@@ -111,55 +114,33 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-                        <div class="block-2">
-                            <!-- heading -->
-                            <h6>Product</h6>
-                            <!-- links -->
-                            <ul>
-                                <li><a href="team.html">Teams</a></li>
-                                <li><a href="blog.html">Blogs</a></li>
-                                <li><a href="FAQ.html">FAQs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-                        <div class="block-2">
-                            <!-- heading -->
-                            <h6>Resources</h6>
-                            <!-- links -->
-                            <ul>
-                                <li><a href="sign-up.html">Singup</a></li>
-                                <li><a href="sign-in.html">Login</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-                        <div class="block-2">
-                            <!-- heading -->
-                            <h6>Company</h6>
-                            <!-- links -->
-                            <ul>
-                                <li><a href="career.html">Career</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="team.html">Investor</a></li>
-                                <li><a href="privacy.html">Terms</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
-                        <div class="block-2">
-                            <!-- heading -->
-                            <h6>Company</h6>
-                            <!-- links -->
-                            <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-8">
+                        <h3 class="text-center text-white">Drop us a mail</h3>
+                        <form action="">
+                            <div class="row">
+                                <!-- Name -->
+                                <div class="col-md-6 mb-2">
+                                    <input class="form-control main" type="text" placeholder="Name" required>
+                                </div>
+                                <!-- Email -->
+                                <div class="col-md-6 mb-2">
+                                    <input class="form-control main" type="email" placeholder="Your Email Address"
+                                        required>
+                                </div>
+                                <!-- subject -->
+                                <div class="col-md-12 mb-2">
+                                    <input class="form-control main" type="text" placeholder="Subject" required>
+                                </div>
+                                <!-- Message -->
+                                <div class="col-md-12 mb-2">
+                                    <textarea class="form-control main" name="message" rows="10" placeholder="Your Message"></textarea>
+                                </div>
+                                <!-- Submit Button -->
+                                <div class="col-12 text-right">
+                                    <button class="btn btn-main-md">Submit</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -168,14 +149,13 @@
             <small class="text-secondary">Copyright &copy;
                 <script>
                     document.write(new Date().getFullYear())
-                </script>. Designed &amp; Developed by <a
-                    href="https://themefisher.com/">Themefisher</a>
+                </script>. Designed &amp; Developed by Team</a>
             </small class="text-secondary">
         </div>
 
         <div class="text-center bg-dark py-1">
             <small>
-                <p>Distributed By <a href="https://themewagon.com/">Themewagon</a></p>
+                <p>Distributed By <a href="#">Wellkit❤</a></p>
             </small class="text-secondary">
         </div>
     </footer>
