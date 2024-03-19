@@ -1,8 +1,8 @@
 @extends('partisan.main')
 @section('content')
     <!--====================================
-                =            Hero Section            =
-                =====================================-->
+                        =            Hero Section            =
+                        =====================================-->
     <section class="section gradient-banner" id="home">
         <div class="shapes-container">
             <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
@@ -32,7 +32,7 @@
                     <a href="https://nawalaeducation.com/" target="_blank" class="btn btn-main-md">PUBLISHING NOW</a>
                 </div>
                 <div class="col-md-6 text-center order-1 order-md-2">
-                    <img class="img-fluid" src="images/bg-title.svg" alt="screenshot">
+                    <img class="img-fluid" src="{{ asset('assets/book.png') }}" alt="screenshot">
                 </div>
             </div>
         </div>
@@ -69,15 +69,15 @@
     </section>
 
     <!--==================================
-                =            Feature Grid            =
-                ===================================-->
+                        =            Feature Grid            =
+                        ===================================-->
     <section class="feature section pt-0"id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 ml-auto justify-content-center">
                     <!-- Feature Mockup -->
                     <div class="image-content" data-aos="fade-right">
-                        <img class="img-fluid" src="images/feature/feature-new-01.jpg" alt="iphone">
+                        <img class="img-fluid" src="{{ asset('assets/book.png') }}" alt="iphone">
                     </div>
                 </div>
                 <div class="col-lg-6 mr-auto align-self-center">
@@ -95,15 +95,16 @@
                     <!-- Testimonial Quote -->
                     <div class="testimonial">
                         <p>
-                            "InVision is a window into everything that's being designed at Twitter. It gets all of our best
-                            work in one
-                            place."
+                            "Explore the boundaries of knowledge, inspiration, and collaboration with PT Anagata Sembagi
+                            Education. Let's together carve a path of deep understanding and bring positive change to the
+                            world."
                         </p>
                         <ul class="list-inline meta">
                             <li class="list-inline-item">
-                                <img src="images/testimonial/feature-testimonial-thumb.jpg" alt="">
+                                <img src="{{ asset('apps/images/team/marketing-team-02.jpg') }}"
+                                    alt="">
                             </li>
-                            <li class="list-inline-item">Jonathon Andrew , Themefisher.com</li>
+                            <li class="list-inline-item">Jonathon Andrew , Manager</li>
                         </ul>
                     </div>
                 </div>
@@ -131,22 +132,23 @@
                     <!-- Testimonial Quote -->
                     <div class="testimonial">
                         <p>
-                            "InVision is a window into everything that's being designed at Twitter. It gets all of our best
-                            work in one
-                            place."
+                            "Explore the boundaries of knowledge, inspiration, and collaboration with PT Anagata Sembagi
+                            Education. Let's together carve a path of deep understanding and bring positive change to the
+                            world."
                         </p>
                         <ul class="list-inline meta">
                             <li class="list-inline-item">
-                                <img src="images/testimonial/feature-testimonial-thumb.jpg" alt="">
+                                <img src="{{ asset('apps/images/team/design-team-01.jpg') }}"
+                                    alt="">
                             </li>
-                            <li class="list-inline-item">Jonathon Andrew , Themefisher.com</li>
+                            <li class="list-inline-item">Intan Juniarmi , Chieff Editor</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 mr-auto justify-content-center">
                     <!-- Feature mockup -->
                     <div class="image-content" data-aos="fade-left">
-                        <img class="img-fluid" src="images/feature/feature-new-02.jpg" alt="ipad">
+                        <img class="img-fluid" src="{{ asset('assets/book.png') }}" alt="ipad">
                     </div>
                 </div>
             </div>
@@ -155,8 +157,8 @@
     <!--====  End of Feature Grid  ====-->
 
     <!--=====================================
-    =            Address and Map            =
-    ======================================-->
+            =            Address and Map            =
+            ======================================-->
     <section class="address" id="contact">
         <div class="container">
             <div class="row">
@@ -186,10 +188,9 @@
                 <div class="col-lg-7 mt-5 mt-lg-0">
                     <div class="google-map">
                         <!-- Google Map -->
-                        <iframe id="map_canvas"
-                                style="border: 0;"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2354862527054!2d103.58305187404781!3d-1.6139613360701068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2588613bad5529%3A0xaffa5a9ecb6016b!2sJl.%20Raja%20Yamin%20No.88!5e0!3m2!1sen!2sid!4v1709095326885!5m2!1sen!2sid"
-                                width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe id="map_canvas" style="border: 0;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2354862527054!2d103.58305187404781!3d-1.6139613360701068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2588613bad5529%3A0xaffa5a9ecb6016b!2sJl.%20Raja%20Yamin%20No.88!5e0!3m2!1sen!2sid!4v1709095326885!5m2!1sen!2sid"
+                            width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -197,5 +198,4 @@
     </section>
 
     <!--====  End of Address and Map  ====-->
-    
 @endsection

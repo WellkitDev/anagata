@@ -64,9 +64,6 @@
                     <li class="nav-item @@contact">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item @@login">
-                        <a class="nav-link" href="#login">Login</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -99,17 +96,17 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
                         <div class="block">
-                            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+                            <a class="navbar-brand" href="#">ANAGATA<span>EDU</span></a>
                             <!-- Social Site Icons -->
                             <ul class="social-icon list-inline">
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a>
+                                    <a href="#"><i class="ti-facebook"></i></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a>
+                                    <a href="#"><i class="ti-twitter"></i></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.instagram.com/themefisher/"><i class="ti-instagram"></i></a>
+                                    <a href="#"><i class="ti-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
